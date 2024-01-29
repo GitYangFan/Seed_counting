@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['seed']
+
+roboflow:
+  workspace: seedcounting
+  project: seed_counting
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/seedcounting/seed_counting/dataset/4
